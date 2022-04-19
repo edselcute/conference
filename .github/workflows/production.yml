@@ -16,7 +16,7 @@ jobs:
 
       - name: Validate composer
         run: |
-          composer validate
+          composer update
       
       - name: Install dependencies
         run: |
